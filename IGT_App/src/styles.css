@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+html {
+    --mdc-outlined-card-container-color: white;
+    --mat-card-title-text-size : 1rem;
+    --mat-standard-button-toggle-height: 20px;
+    --mdc-outlined-card-outline-color : #54667ef5;
+    --mat-paginator-container-size: 20px;
+    --mdc-icon-button-state-layer-size: 35px;
+    --mat-paginator-form-field-container-vertical-padding: 0;
+    --mat-expansion-header-expanded-state-height:30px;
+    --mat-expansion-container-background-color: white;
+    --mat-expansion-header-hover-state-layer-color: #c4c4e3;
+    --mat-expansion-header-collapsed-state-height: 30px;
+    --mat-form-field-container-vertical-padding: 5px;
+    --mat-filled-button-horizontal-padding: 10px;
+    --mdc-filled-button-container-height: 30px;
+}
+.mat-mdc-form-field-infix{
+    height: 20px;
+}
+.mat-mdc-icon-button{
+    padding: 0 !important;
+}
+.mdc-text-field--outlined .mat-mdc-form-field-infix, .mdc-text-field--no-label .mat-mdc-form-field-infix{
+    padding: 0;
+    height: 20px ;
+}
+.mat-mdc-form-field-flex{
+    height: 24px !important;
+}

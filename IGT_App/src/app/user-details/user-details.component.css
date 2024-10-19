@@ -1,0 +1,22 @@
+.menuListDetails{
+    max-height: 500px;
+    overflow-y: auto;
+}
+.userDetail{
+    pointer-events: painted;
+}
+
+.value{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.mat-expansion-panel-header,
+.mat-expansion-panel-header:hover {
+    background: #c4c4e3 !important;
+}
+
+::ng-deep #userDetailsFilter .mat-mdc-text-field-wrapper{
+    height: 30px;
+}
